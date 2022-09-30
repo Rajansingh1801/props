@@ -1,0 +1,22 @@
+body{background-color: #00DBDE; font-family: cursive; background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    }
+.home-div{   background-color: cadetblue; padding: 20px; text-align: center;}
+/* .card{background-color: black;} */
+
+.card img{width: 300px; height: 300px; border: 2px solid green; overflow: hidden; width: 100%;} 
+.card img:hover{transform:scaleX(1.2); position: relative; overflow-y: hidden; transition: 200ms ease-out; box-shadow: 0px 10px 50px rgb(230, 113, 18);}
+.card{
+     padding: 20px; margin: 20px; border-radius: 20px;}
+.card-item{background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% ); margin: 20px; padding: 20px;}
+.visit{padding: 10px 15px; background-color:brown; border-radius: 10px; margin-top: 8px;}
+.visit:hover{background-color: rgb(157, 123, 123);}
+.visit a{color: white; font-weight: 600; text-decoration: none;}
+.lyrics{padding: 10px 15px; margin-left: 15px; border-radius: 10px; background-color: tan; color: green; font-weight: 600; margin-top: 8px;}
+.lyrics:hover{background-color: antiquewhite;}
+
+h1{position: relative; font-size: 4rem; font-family: sans-serif; -webkit-text-stroke:0.2vw #6375bd}
+/* h1:before{ content: attr(data-text); position: absolute; top: 0%; left: 0%; width: 0%; height: 100%; color: #4fed51; -webkit-text-stroke:0vw; border-right: 2px solid #4fed51; overflow: hidden; animation: animate 6s linear infinite; -webkit-animation: animate 6s linear infinite;} */
+@keyframes animate{
+    0%{width: 0;}
+    70%{width: 100%;}
+}
